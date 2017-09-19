@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+		
+	</head>
+	<body class="J-static-page">
+		<!--
+        	作者：offline
+        	时间：2017-09-16
+        	描述：头部导航
+        -->
+        <div id="header">
+			<div class="header-top">
+			<a id="J-top" name="J-top" href="javascript:;"></a>
+			<div class="w1080 titletop">
+				<div class="fl menu">每天加一点创意</div>
+				<ul class="fr">
+	            	<li class="hd-menu-list hd-menu-logininfo hd-menu-notLogin"></li>
+	                <li class="login">
+	                	[ 
+	                	<a id="J-hd-btn-login" href="login.html" target="_blank">登录</a> 
+	                	|
+	                	<a href="register.html" target="_blank">注册</a> 
+	                	] 
+	                </li>                
+	                <li class="jiae1 MT-item">
+	                 	<a hidefocus="true" href="##">我的加意</a>
+	                 	<i class="arrow"></i>
+	                 	<!--隐藏的图标	
+                          -->
+	                	<div class="MT-my MT-DIV">
+		                    <span class="MT-arrow"></span>
+		                    <img src="http://www.jiae.com/static/images/temp/article-default-pic.png " alt="用户头像" class="pic J-userPhoto">
+		                   <ul class="MT-myul">
+		                        <li>
+		                        	<a href="##" hidefocus="true">个人中心</a>
+		                        </li>
+		                        
+		                        <li>
+		                        	<a href="##" hidefocus="true">我的足迹</a>
+		                        </li>
+		                       
+		                        <li>
+		                       		 <a href="##" hidefocus="true">我的心愿单</a>
+		                        </li>
+		                        
+		                        <li>
+		                       		<a href="login" hidefocus="true">退出登录</a>
+		                  	    </li>
+		                    </ul>
+	                </div>
+	             	 </li>
+					<li class="jiae2">
+						<a href="##">我的订单</a>
+						<i class="order-icon"></i>
+					</li>
+					<li class="jiae3  MT-item">
+						<a href="##">手机加意</a>
+						<i class="mobile-icon"></i>
+                          <!--隐藏的二维码	
+                          -->
+						<div class="MT-mobile MT-DIV">
+							<span class="MT-arrow"></span>
+							<p id="p1">
+								<img src="http://www.jiae.com/static/images/ewm-wx-jiae.jpg"><br>加意官方微博</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		 </div>
+		<!--
+        	作者：offline
+        	时间：2017-09-16
+        	描述：第二部分
+        -->
+        <div id="section">
+        	<div class="w1080">
+        		<div class="logoPic">
+        			<a href="##">
+        				<img class="logo" src="http://www.jiae.com/static/images/logo.png" alt="加意新品">
+        			</a>
+        			
+        		</div>
+        		<div id="J-top-search" class="search top-search">
+        			<input type="text" placeholder="快搜新品" value="山羊角咖啡杯" class="keywords text"/>
+        			<a class="btn btn-submit button" href="##">
+        				<i class="fa fa-search iconfont">&#xe66f;</i>
+        			</a>
+        		</div>
+        		<div class="cart">
+        			<ul class="header-menu">
+        				<li class="hd-menu-list hd-menu-cart shopping-cart">
+        					<a href="##" id="J-btn-miniCart">
+        						<span class="cart-num" id="J-miniCart-num"> 0</span>
+        					</a>
+        					<!--
+                            	作者：offline
+                            	时间：2017-09-16
+                            	描述：隐藏的购物车
+                            -->
+        					<div id="ecart" class="child child-basket">
+                     			 <div class="miniCart" id="J-miniCart">
+                     				<ul class="uList miniCart-list"></ul>
+                      				<div class="count">
+                          				<span class="MT-arrow MT-arrow_1"></span>
+                          				<p class="count-text">
+                                  			<span class="row">共计
+                                  				<strong class="color-red J-miniCart-number">0</strong>件商品
+                                  			</span>
+                              				<span class="row">合计:
+                                 			 	<span class="color-red">
+                                      				<strong class="J-miniCart-price">
+                                     	  				0元
+                                      				</strong>
+                                  				</span>
+                             				 </span>
+                          				</p>
+                          				<a class="btn btn-pay" href="settleaccount">立即结算</a>
+                     				</div>
+                     			</div>
+                 		 </div>
+        				</li>
+        			</ul>
+        		</div>
+        	</div>
+        </div>
+		<!--
+        	作者：offline
+        	时间：2017-09-16
+        	描述：导航
+        -->
+        <div id="nav">
+        	<div class="w1080 nav navbig">
+        	<ul class="clearfix">
+        		<li>
+        			<a href="##"  class="j-have-first">新品</a>
+        		</li>
+        		<li class="j-have-hover" id="J-catalog-3" disabled="disabled">
+        			<a href="##" target="_blank">优选家居</a>
+        		</li>
+        		<li class="j-have-hover" id="J-catalog-4" disabled="disabled">
+        			<a href="##" target="_blank">品味厨房</a>
+        		</li>
+        		<li class="j-have-hover" id="J-catalog-5" disabled="disabled">
+        			<a href="##" target="_blank">生活电器</a>
+        		</li>
+        		<li class="j-have-hover" id="J-catalog-6" disabled="disabled">
+        			<a href="##" target="_blank">极客数码</a>
+        		</li>
+        		<li class="j-have-hover" disabled="disabled">
+        			<a href="##" target="_blank">美酒伴侣</a>
+        		</li>
+        		<li class="j-have-hover" disabled="disabled">
+        			<a href="##" target="_blank">轻松办公</a>
+        		</li>
+        		<li class="j-have-hover" disabled="disabled">
+        			<a href="##" target="_blank" class="j-hava-hover-last">品牌</a>
+        		</li>
+        		<li class="j-have-hover" disabled="disabled" >
+        			<a href="##" target="_blank" class="j-have-last">创意头条</a>
+        		</li>
+        	</ul>
+        </div>
+        </div>
+        
+        <!--
+        	作者：offline
+        	时间：2017-09-16
+        	描述：隐藏的导航
+        -->
+        <div class="j-nav-hover-bg">
+	    	<div class="j-nav-hover-container">
+		    	<div class="j-nav-catalog-list j-float">
+		    		<ul>
+		    			<li id="J-catalog-list-0" class="j-li-width-lg">
+		    				<a class="j-home-nav2-a" href="##" target="_blank">  
+		    					<img src="img/img1.jpg">
+		    					<span class="j-catalog-title-lg">贴心设计</span>
+		    				</a>
+		    			</li> 
+		    			<li id="J-catalog-list-1" class="j-li-width-lg">
+		    				<a class="j-home-nav2-a" href="##" target="_blank">     
+			    				<img src="img/img2.jpg">
+			    				<span class="j-catalog-title-lg">杂物收纳</span>
+		    				</a>
+		    			</li>
+		    			<li id="J-catalog-list-2" class="j-li-width-lg">
+		    				<a class="j-home-nav2-a" href="#" target="_blank">     
+		    					<img src="img/img3.jpg">
+		    					<span class="j-catalog-title-lg">竹语伞</span>
+		    				</a>
+		    			</li> 
+		    			<li id="J-catalog-list-3" class="j-li-width-lg">
+							<a class="j-home-nav2-a" href="##" target="_blank">     
+								<img src="img/img4.jpg">
+								<span class="j-catalog-title-lg">起居日用</span>
+							</a>
+		    			</li> 
+						<li id="J-catalog-list-4" class="j-li-width-lg">
+							<a class="j-home-nav2-a" href="#" target="_blank">
+								<img src="img/img5.jpg">
+								<span class="j-catalog-title-lg">精致生活</span>
+							</a>
+						</li> 
+		    		</ul> 
+		    	</div>
+		    	<!--<div class="j-nav-product-list j-float"> 
+	    		<ul>  
+	    			<li>
+	    				<a href="##" target="_blank">
+	    					<img src="http://oss.jiae.com/image/product/sku/201611/24/fb376cd1-1b9f-4d12-8f1e-8d3970dc73d9.jpg">
+	    					<p>触摸屏清洁套装</p>
+	    				</a>
+	    			</li>  
+	    			<li>
+	    				<a href="productdetail?productId=100299" target="_blank">
+	    					<img src="http://oss.jiae.com/image/product/sku/201611/25/04516d67-ecfd-4a00-bd17-f6b8752488db.jpg">
+	    					<p>抗菌屏幕清洁湿巾</p>
+	    				</a>
+	    			</li>  
+	    			<li>
+	    				<a href="productdetail?productId=100300" target="_blank">
+	    					<img src="http://oss.jiae.com/image/product/sku/201611/24/33d4cc88-3f07-4b39-ae8f-6c7d782a5050.jpg">
+	    					<p>便携式清洁套装</p>
+	    				</a>
+	    			</li> 
+	    		</ul> 
+	    	</div>-->
+	    	</div>
+   		</div>
+        <!--
+        	作者：offline
+        	时间：2017-09-16
+        	描述：轮播图
+        -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="40000">
+	    <!-- 轮播（Carousel）指标 -->
+	   <div class="carousel-indicators-div">
+		    <ul class="carousel-indicators">
+		   		<li data-target="#myCarousel" data-slide-to="0" class="active">
+	        		<img src="http://img2.nuandaocdn.com/Public/images/uploads/focuspic/20170830/59a697b2a9476.jpg">
+	        		<div class="item-cover"></div>
+	        	</li>
+	        	
+				<li data-target="#myCarousel" data-slide-to="1" class="">
+	        		<img src="http://img2.nuandaoimg.com/Public/images/uploads/focuspic/20161019/5806f2de4be1a.png">
+	        		<div class="item-cover"></div>
+	        	</li>
+        	
+				<li data-target="#myCarousel" data-slide-to="2" class="">
+	        		<img src="http://img1.nuandaoimg.com/Public/images/uploads/focuspic/20170829/59a543f7af1f3.jpg">
+	        		<div class="item-cover"></div>
+	        	</li>
+       
+				<li data-target="#myCarousel" data-slide-to="3" class="">
+	        		<img src="http://img2.nuandaocdn.com/Public/images/uploads/focuspic/20170913/59b91086a3763.jpg">
+	        		<div class="item-cover"></div>
+	        	</li>
+   
+					<li data-target="#myCarousel" data-slide-to="4" class="">
+	        		<img src="http://img2.nuandaocdn.com/Public/images/uploads/focuspic/20170830/59a697b2a9476.jpg">
+	        		<div class="item-cover"></div>
+	        	</li>
+ 
+				<li data-target="#myCarousel" data-slide-to="5" class="">
+	        		<img src="http://img2.nuandaocdn.com/Public/images/uploads/focuspic/20170912/59b7a8b3acd6f.jpg">
+	        		<div class="item-cover"></div>
+	        	</li>
+                    
+		    </ul>   
+	    </div>
+		<!-- 轮播（Carousel）项目 -->
+		<div class="slider_main">
+				<ul class="slider_list" id="slider_list">
+					<li class="slider_item">
+						<a href="#" class="slider_item_lk">
+							<img class="slider_item_img" src="http://img2.nuandaocdn.com/Public/images/uploads/focuspic/20170830/59a697b2a9476.jpg" />
+						</a>
+					</li>
+					
+					<li class="slider_item">
+						<a href="#" class="slider_item_lk">
+							<img class="slider_item_img" src="http://img2.nuandaoimg.com/Public/images/uploads/focuspic/20161019/5806f2de4be1a.png" />
+						</a>
+					</li>
+					
+					<li class="slider_item">
+						<a href="#" class="slider_item_lk">
+							<img class="slider_item_img" src="http://img1.nuandaoimg.com/Public/images/uploads/focuspic/20170829/59a543f7af1f3.jpg" />
+						</a>
+					</li>
+					
+					<li class="slider_item">
+						<a href="#" class="slider_item_lk">
+							<img class="slider_item_img" src="http://img2.nuandaocdn.com/Public/images/uploads/focuspic/20170913/59b91086a3763.jpg" />
+						</a>
+					</li>	
+					
+					<li class="slider_item">
+						<a href="#" class="slider_item_lk">
+							<img class="slider_item_img" src="http://img2.nuandaocdn.com/Public/images/uploads/focuspic/20170830/59a697b2a9476.jpg" />
+						</a>
+					</li>
+					
+					<li class="slider_item">
+						<a href="#" class="slider_item_lk">
+							<img class="slider_item_img" src="http://img2.nuandaocdn.com/Public/images/uploads/focuspic/20170912/59b7a8b3acd6f.jpg" />
+						</a>
+					</li>
+				</ul>
+							
+				<a href="##" class="slider_control_item slider_control_prev" id="slider_control_prev">
+					<i class="iconfont">&#xe601;</i>
+				</a>
+				<a href="##" class="slider_control_item slider_control_next" id="slider_control_next">
+					<i class="iconfont">&#xe600;</i>
+				</a>
+						</div>
+	</div>
+		<!--
+        	作者：offline
+        	时间：2017-09-17
+        	描述：看大牌
+        -->
+		<div class="look-club container-common">
+			<!--
+            	作者：offline
+            	时间：2017-09-17
+            	描述：上部分
+            -->
+			<div class="catalog-title-lines clearfix">
+				<div class="catalog-title">
+	    				<span class="catalog-name">看大牌</span>
+		    			<span class="catalog-desp">用品质，打造VIP</span>
+	    		</div>
+	    		<div class="catalog-children">
+	    			<ul>
+	    				<li class="catalog-children-first">
+	    					<a href="##" target="_blank">
+	    					<img src="http://www.jiae.com/static/images/more.jpg" class="pic_1">
+	    					</a>
+	    				</li>
+	    				<li class="catalog-children-last">
+	    					<a href="##">
+	    						<span>更多品牌</span>
+	    					</a>
+	    				</li>
+	    			</ul>
+	    		</div>
+			</div>
+			<!--
+            	作者：offline
+            	时间：2017-09-17
+            	描述：下部分
+            -->
+			<div class="item-list-pic">
+           		<!--
+                   	作者：offline
+                   	时间：2017-09-17
+                   	描述：!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                   -->
+           		<ul class="uList item-lis item-lis-s3 clearfix">
+				<li class="j-item-list-li">
+				    <a class="a-pic" href="##" target="_blank">
+				        <img class="item-pic lazy" src="http://img2.nuandaocdn.com/Public/images/uploads/sale/20170915/59bbaba956118.jpg" alt="Bathfeeling浴见" data-src="loaded">
+				        <div class="pic-shade">
+				        	<p class="pic-shade-first">Bathfeeling浴见</p>
+				        	<p class="pic-shade-last">中国</p>
+				        </div>
+				    </a>
+				</li>
+				<li class="j-item-list-li">
+				    <a class="a-pic" href="##" target="_blank">
+				        <img class="item-pic lazy" src="http://img1.nuandaoimg.com/Public/images/uploads/sale/20170915/59bbae845e0cc.jpg" alt="Travel  Blue" data-src="loaded">
+				        <div class="pic-shade">
+				        	<p class="pic-shade-first">Travel  Blue</p>
+				        	<p class="pic-shade-last">英国</p>
+				        </div>
+				    </a>
+				</li>
+				<li class="j-item-list-li">
+				    <a class="a-pic" href="branddetail?brandId=26" target="_blank">
+				        <img class="item-pic lazy" src="http://img1.nuandaoimg.com/Public/images/uploads/sale/20170915/59bbae964ed34.jpg" alt="唤醒者" data-src="loaded">
+				        <div class="pic-shade">
+				        	<p class="pic-shade-first">唤醒者</p>
+				        	<p class="pic-shade-last">中国-美国</p>
+				        </div>
+				    </a>
+				</li>
+				<li class="j-item-list-li">
+				    <a class="a-pic" href="##" target="_blank">
+				        <img class="item-pic lazy" src="http://img2.nuandaoimg.com/Public/images/uploads/sale/20170915/59bb36f2efd14.jpg" alt="IMM Living" data-src="loaded">
+				        <div class="pic-shade">
+				        	<p class="pic-shade-first">IMM Living</p>
+				        	<p class="pic-shade-last">加拿大</p>
+				        </div>
+				    </a>
+				</li>          
+		</ul>
+        	</div>
+		</div>
+		<!--
+        	作者：offline
+        	时间：2017-09-17
+        	描述：新品
+        -->	
+        <div class="new container-common">
+       		 
+			<div class="catalog-title-lines clearfix">
+				<div class="catalog-title">
+	    				<span class="catalog-name">新品</span>
+		    			<span class="catalog-desp">以心，推新，总想给你最好的</span>
+	    		</div>
+	    		<div class="catalog-children">
+	    			<ul>
+	    				<li class="catalog-children-first">
+	    					<a href="##" target="_blank">
+	    					<img src="http://www.jiae.com/static/images/more.jpg" class="pic_1">
+	    					</a>
+	    				</li>
+	    				<li class="catalog-children-last">
+	    					<a href="##">
+	    						<span>更多品牌</span>
+	    					</a>
+	    				</li>
+	    			</ul>
+	    		</div>
+			</div>
+			<!--
+            	作者：offline
+            	时间：2017-09-17
+            	描述：!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        -->
+			<div class="item-list-pic">
+         		<ul class="uList item-lis item-lis-s3 clearfix">           
+					<li class="j-item-list-li" data-id="1012603">
+					    <a class="a-pic" href="##" target="_blank">
+					        <img class="item-pic lazy" src="http://img2.nuandaocdn.com/Public/images/uploads/product/20160713/5785d4e2f2ac8-300.jpg" alt="ifling数据线" data-src="loaded">
+					    </a>
+					    <div class="item-titlik">
+					        <h3 class="item-tit">
+					            <a href="##" title="ifling数据线" target="_blank">ifling数据线</a>
+					        </h3>
+					        <p class="item-country">Jiae·中国</p>
+					    </div>
+					    <p class="item-price">
+							￥88.00
+					        <span class="j-btn-addCart" data-id="1012603"></span>
+					    </p>
+					</li>
+				</ul>
+        	</div>
+        </div>
+		<!--
+        	作者：offline
+        	时间：2017-09-17
+        	描述：家具
+        -->
+		<div class="furnishing container-common">
+			<div class="catalog-title-lines clearfix">
+				<div class="catalog-title">
+    				<span class="catalog-name">家具</span>
+	    			<span class="catalog-desp">精挑细选，只为生活更舒适</span>
+	    		</div>
+	    		<div class="catalog-children">
+	    			<ul>
+	    				<li>
+	    					<a href="##" target="_blank">
+		    					<img src="img/img1.jpg">
+		    					<span>贴心设计</span>
+		    					<i>/</i>
+	    					</a>
+	    				</li>
+	
+	    				<li>
+	    					<a href="##" target="_blank">
+	    					<img src="img/img2.jpg">
+	    					<span>杂物收纳</span>
+	    					<i>/</i>
+	    					</a>
+	    				</li>
+					  
+	    				<li>
+	    					<a href="##" target="_blank">
+		    					<img src="img/img3.jpg">
+		    					<span>竹语伞</span>
+		    					<i>/</i>
+	    					</a>
+	    				</li>
+	
+	    				<li>
+	    					<a href="##" target="_blank">
+	    					<img src="img/img4.jpg">
+	    					<span>起居日用</span>
+	    					</a>
+	    				</li>
+		    		</ul>
+	    		</div>
+			
+				
+			</div>
+			<div class="item-list-pic">
+         			<ul class="uList item-lis item-lis-s3 clearfix">           
+					<li class="j-item-list-li" data-id="1012603">
+					    <a class="a-pic" href="##" target="_blank">
+					        <img class="item-pic lazy" src="http://img2.nuandaocdn.com/Public/images/uploads/product/20170331/58de083607056-300.jpg" alt="德国风暴伞迷你五折商务伞" data-src="loaded">
+					    </a>
+					    <div class="item-titlik">
+					        <h3 class="item-tit">
+					            <a href="##" title="德国风暴伞迷你五折商务伞" target="_blank">德国风暴伞迷你五折商务伞</a>
+					        </h3>
+					        <p class="item-country">Jiae·中国</p>
+					    </div>
+					    <p class="item-price">
+							￥88.00
+					        <span class="j-btn-addCart" data-id="1012603"></span>
+					    </p>
+					</li>
+				</ul>
+        	</div>
+			<div class="more-bar">
+		    	<a class="link" href="catalog?catalogId=3" target="_blank">
+		    		更多家居好物
+		    		<i class="ico ico-more"></i>
+		    	</a>
+		    </div>
+		</div>
+		<!--
+	    	作者：offline
+	    	时间：2017-09-17
+	    	描述：数码
+	    -->
+	    <div class="figure container-common">
+			<div class="catalog-title-lines clearfix">
+				<div class="catalog-title">
+    				<span class="catalog-name">数码</span>
+	    			<span class="catalog-desp">用科技改变生活</span>
+	    		</div>
+	    		<div class="catalog-children">
+	    			<ul>
+	    				<li>
+	    					<a href="##" target="_blank">
+		    					<img src="img/img6.jpg">
+		    					<span>贴心设计</span>
+		    					<i>/</i>
+	    					</a>
+	    				</li>
+	
+	    				<li>
+	    					<a href="##" target="_blank">
+	    					<img src="img/img7.jpg">
+	    					<span>杂物收纳</span>
+	    					<i>/</i>
+	    					</a>
+	    				</li>
+					  
+	    				<li>
+	    					<a href="##" target="_blank">
+		    					<img src="img/img8.jpg">
+		    					<span>竹语伞</span>
+		    					<i>/</i>
+	    					</a>
+	    				</li>
+	
+	    				<li>
+	    					<a href="##" target="_blank">
+	    					<img src="img/img9.jpg">
+	    					<span>起居日用</span>
+	    					</a>
+	    				</li>
+		    		</ul>
+	    		</div>
+			
+				
+			</div>
+			<div class="item-list-pic">
+         			<ul class="uList item-lis item-lis-s3 clearfix">           
+					<li class="j-item-list-li" data-id="1012603">
+					    <a class="a-pic" href="##" target="_blank">
+					        <img class="item-pic lazy" src="http://img2.nuandaocdn.com/Public/images/uploads/product/20170331/58de083607056-300.jpg" alt="德国风暴伞迷你五折商务伞" data-src="loaded">
+					    </a>
+					    <div class="item-titlik">
+					        <h3 class="item-tit">
+					            <a href="##" title="德国风暴伞迷你五折商务伞" target="_blank">德国风暴伞迷你五折商务伞</a>
+					        </h3>
+					        <p class="item-country">Jiae·中国</p>
+					    </div>
+					    <p class="item-price">
+							￥88.00
+					        <span class="j-btn-addCart" data-id="1012603"></span>
+					    </p>
+					</li>
+				</ul>
+        	</div>
+			<div class="more-bar">
+		    	<a class="link" href="catalog?catalogId=3" target="_blank">
+		    		更多家居好物
+		    		<i class="ico ico-more"></i>
+		    	</a>
+		    </div>
+		</div>
+	    <!--
+	    	作者：offline
+	    	时间：2017-09-17
+	    	描述：酒具
+	    -->
+   		<div class="drinking container-common">
+			<div class="catalog-title-lines clearfix">
+				<div class="catalog-title">
+    				<span class="catalog-name">酒具</span>
+	    			<span class="catalog-desp">醇醪佳酿，岂可无美器作陪</span>
+	    		</div>
+	    		<div class="catalog-children">
+	    			<ul>
+	    				<li>
+	    					<a href="##" target="_blank">
+		    					<img src="img/img10.jpg">
+		    					<span>红酒</span>
+		    					<i>/</i>
+	    					</a>
+	    				</li>
+	
+	    				<li>
+	    					<a href="##" target="_blank">
+	    					<img src="img/img11.jpg">
+	    					<span>瓶塞</span>
+	    					<i>/</i>
+	    					</a>
+	    				</li>
+					  
+	    				<li>
+	    					<a href="##" target="_blank">
+		    					<img src="img/img12.jpg">
+		    					<span>酒架</span>
+		    					<i>/</i>
+	    					</a>
+	    				</li>
+	
+	    				<li>
+	    					<a href="##" target="_blank">
+	    					<img src="img/img13.jpg">
+	    					<span>杯贴</span>
+	    					</a>
+	    				</li>
+		    		</ul>
+	    		</div>
+			
+				
+			</div>
+			<div class="item-list-pic">
+         			<ul class="uList item-lis item-lis-s3 clearfix">           
+					<li class="j-item-list-li" data-id="1012603">
+					    <a class="a-pic" href="##" target="_blank">
+					        <img class="item-pic lazy" src="http://img2.nuandaocdn.com/Public/images/uploads/product/20170331/58de083607056-300.jpg" alt="德国风暴伞迷你五折商务伞" data-src="loaded">
+					    </a>
+					    <div class="item-titlik">
+					        <h3 class="item-tit">
+					            <a href="##" title="德国风暴伞迷你五折商务伞" target="_blank">德国风暴伞迷你五折商务伞</a>
+					        </h3>
+					        <p class="item-country">Jiae·中国</p>
+					    </div>
+					    <p class="item-price">
+							￥88.00
+					        <span class="j-btn-addCart" data-id="1012603"></span>
+					    </p>
+					</li>
+				</ul>
+        	</div>
+			<div class="more-bar">
+		    	<a class="link" href="catalog?catalogId=3" target="_blank">
+		    		更多家居好物
+		    		<i class="ico ico-more"></i>
+		    	</a>
+		    </div>
+		</div>
+	   <!--
+	   	作者：offline
+	   	时间：2017-09-17
+	   	描述：电器
+	   -->
+    	<div class="electrical container-common">
+			<div class="catalog-title-lines clearfix">
+				<div class="catalog-title">
+    				<span class="catalog-name">电器</span>
+	    			<span class="catalog-desp">让生活更便利一些</span>
+	    		</div>
+	    		<div class="catalog-children">
+	    			<ul>
+	    				<li>
+	    					<a href="##" target="_blank">
+		    					<img src="img/img14.jpg">
+		    					<span>空气净化</span>
+		    					<i>/</i>
+	    					</a>
+	    				</li>
+	
+	    				<li>
+	    					<a href="##" target="_blank">
+	    					<img src="img/img15.jpg">
+	    					<span>LED灯</span>
+	    					<i>/</i>
+	    					</a>
+	    				</li>
+					  
+	    				<li>
+	    					<a href="##" target="_blank">
+		    					<img src="img/img16.jpg">
+		    					<span>台灯</span>
+		    					<i>/</i>
+	    					</a>
+	    				</li>
+	
+	    				<li>
+	    					<a href="##" target="_blank">
+	    					<img src="img/img17.jpg">
+	    					<span>小家电</span>
+	    					</a>
+	    				</li>
+		    		</ul>
+	    		</div>
+			
+				
+			</div>
+			<div class="item-list-pic">
+         			<ul class="uList item-lis item-lis-s3 clearfix">           
+					<li class="j-item-list-li" data-id="1012603">
+					    <a class="a-pic" href="##" target="_blank">
+					        <img class="item-pic lazy" src="http://img2.nuandaocdn.com/Public/images/uploads/product/20170331/58de083607056-300.jpg" alt="德国风暴伞迷你五折商务伞" data-src="loaded">
+					    </a>
+					    <div class="item-titlik">
+					        <h3 class="item-tit">
+					            <a href="##" title="德国风暴伞迷你五折商务伞" target="_blank">德国风暴伞迷你五折商务伞</a>
+					        </h3>
+					        <p class="item-country">Jiae·中国</p>
+					    </div>
+					    <p class="item-price">
+							￥88.00
+					        <span class="j-btn-addCart" data-id="1012603"></span>
+					    </p>
+					</li>
+				</ul>
+        	</div>
+			<div class="more-bar">
+		    	<a class="link" href="catalog?catalogId=3" target="_blank">
+		    		更多家居好物
+		    		<i class="ico ico-more"></i>
+		    	</a>
+		    </div>
+		</div>
+	   <!--
+	    	作者：offline
+	    	时间：2017-09-17
+	    	描述：更多
+	   -->
+   		<div class="more container-common">
+   		<div class="catalog-title-lines clearfix">
+			<div class="catalog-title">
+				<span class="catalog-name">大家感兴趣的产品</span>
+			</div>
+		</div>
+	    <div class="item-list-pic">
+ 			<ul class="uList item-lis item-lis-s3 clearfix">           
+				<li class="j-item-list-li" data-id="1012603">
+				    <a class="a-pic" href="##" target="_blank">
+				        <img class="item-pic lazy" src="http://img2.nuandaocdn.com/Public/images/uploads/product/20170630/5956665d051c0-300.jpg" alt="德国风暴伞迷你五折商务伞" data-src="loaded">
+				    </a>
+				    <div class="item-titlik">
+				        <h3 class="item-tit">
+				            <a href="##" title="德国风暴伞迷你五折商务伞" target="_blank">德国风暴伞迷你五折商务伞</a>
+				        </h3>
+				        <p class="item-country">Jiae·中国</p>
+				    </div>
+				    <p class="item-price">
+						￥88.00
+				        <span class="j-btn-addCart" data-id="1012603"></span>
+				    </p>
+				</li>
+			</ul>
+        	</div>		
+
+   </div>
+    
+		<!--
+	    	作者：offline
+	    	时间：2017-09-17
+	    	描述：底部
+	    -->    	
+   		<div id="footer">
+	    <div class="footer-white"> 
+			<ul class="clearfix">
+				<li class="firstLi">
+					<div class="title">客服电话</div>
+	                <h2>4000-999-637</h2>
+	                <p class="firstLi_1">10:00-17:00（周一到周五）</p>
+	        		<p class="firstLi_2">邮箱：e@jiae.com</p>
+	                <p class="firstLi_3">微信：18721163226</p>
+				</li>
+				<li class="secondLi">
+					<div class="title">加意新品</div>
+	                <p>加意是中国唯一追求原创和个性化需求的电商及创意社群，我们用心连结真实的美和创意，让每个人都可以自信地创造及实现自在的生活！</p>
+	                <div class="secondKnow">
+	                	<a href="http://www.jiae.com/jiae" target="_blank">了解加意</a>
+	                	<a href="http://www.jiae.com/static/gia/gia.html" target="_blank">ABOUT JIAE</a>
+	                </div>
+				</li>
+				<li class="thirdLi">
+					<div class="title">扫码关注加意新品公众号</div>
+	                <img src="http://www.jiae.com/static/images/ewm-wx-jiae.jpg">
+				</li>
+			</ul>
+		</div>
+    </div>
+		<!--
+	    	作者：offline
+	    	时间：2017-09-17
+	    	描述：
+	    -->
+    	<div id="bottom">
+	    <div class="footer-wp">
+	    	<ul class="footer-ul clearfix">
+	    		<li>
+	    			<a href="##" target="_blank">
+	    			ABOUT JIAE
+	    			</a>
+	    		</li>
+	    		<li>
+	    			<a href="##" target="_blank">
+	                              了解加意
+	                </a>
+	    		</li>
+	    		<li>
+	    			<a href="##" target="_blank">
+	                                配送与验收
+	                </a>
+	    		</li>
+	    		<li>
+	    			<a href="##" target="_blank">
+	                               商务合作
+	                </a>
+	    		</li>
+	    		<li>
+	    			<a href="##" target="_blank">
+	                               企业采购
+	                </a>
+	    		</li>
+	    		<li>
+	    			<a href="##" target="_blank">
+	                               售后服务
+	                </a>
+	    		</li>
+	    		<li>
+	    			<a href="##" target="_blank">
+	                            支付方式
+	                </a>
+	    		</li>
+	    		<li>
+	    			<a href="##" target="_blank">
+	                              用户协议
+	                </a>
+	    		</li>
+	    		<li>
+	    			<a href="##" target="_blank">
+	                             购物流程
+	                </a>
+	    		</li>
+	    	</ul>
+	      </div>
+   	 	</div>
+		<!--
+        	作者：offline
+        	时间：2017-09-17
+        	描述：左侧布局
+        -->
+		<div class="left-layout lift" id="lift">
+			<ul class="lift_list">
+				<li class="lift_item lift_item_first lift_item_on">
+					<a href="##" class="lift_btn">
+						<span class="lift_btn_txt">看大牌</span>
+					</a>
+				</li>
+				<li class="lift_item">
+					<a href="##" class="lift_btn">
+						<span class="lift_btn_txt">新品</span>
+					</a>
+				</li>
+				<li class="lift_item">
+					<a href="##" class="lift_btn">
+						<span class="lift_btn_txt">家具</span>
+					</a>
+				</li>
+				<li class="lift_item">
+					<a href="##" class="lift_btn">
+						<span class="lift_btn_txt">数码</span>
+					</a>
+				</li>
+				<li class="lift_item">
+					<a href="##" class="lift_btn">
+						<span class="lift_btn_txt">酒具</span>
+					</a>
+				</li>
+				<li class="lift_item">
+					<a href="##" class="lift_btn">
+						<span class="lift_btn_txt">电器</span>
+					</a>
+				</li>
+				<li class="lift_item">
+					<a href="##" class="lift_btn">
+						<span class="lift_btn_txt">更多</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--
+        	作者：offline
+        	时间：2017-09-17
+        	描述：右侧布局
+        -->
+        <div class="jdm-toolbar-wrap">
+			<div class="jdm-toolbar J-toolbar">
+				<div class="jdm-toolbar-footer">
+					<div data-type="link" class="jdm-toolbar-tab jdm-tbar-tab-user">                                
+						<a href="#">    
+							<i class="tab-tip"></i>
+							<i class="tab-ico"></i>   
+							<em class="tab-text">用户</em>                                
+						</a>                         
+					</div>
+					
+					<div data-type="link" class="jdm-toolbar-tab jdm-tbar-tab-cart">                                
+						<a href="#">                                
+							<i class="tab-ico"></i>                                
+							<em class="tab-text">购物车</em>                                
+						</a>                         
+					</div>
+					
+					<div data-type="link" class="jdm-toolbar-tab jdm-tbar-tab-history">                                
+						<a href="#">                                
+							<i class="tab-ico"></i>                                
+							<em class="tab-text">我的足迹</em>                                
+						</a>                         
+					</div>
+					
+					<div data-type="link" class="jdm-toolbar-tab jdm-tbar-tab-follow">                                
+						<a href="#">                                
+							<i class="tab-ico"></i>                                
+							<em class="tab-text">收藏</em>                                
+						</a>                         
+					</div>
+					
+					<div data-type="link" class="jdm-toolbar-tab jdm-tbar-tab-top">                                
+						<a href="#">                                
+							<i class="tab-ico"></i>                                
+							<em class="tab-text">顶部</em>                                
+						</a>                         
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,983 @@
+.J-static-page{
+	overflow-x: hidden;
+	box-sizing: border-box;
+}
+/*头部*/
+.header-top {
+    background-color: #3e3a39;
+    height: 36px;
+    line-height: 36px;
+    width: 100%;
+	font: 12px/1.5 Helvetica, Arial, "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+}
+.w1080 {
+    margin: 0 auto;
+    width: 1080px;
+    height: 85px;
+    position: relative;
+}	
+.header-top .fl {
+    width: 300px;
+}
+.fl{
+	float: left;
+}
+.menu {
+    color: #fff;
+    font: 16px/35px Helvetica, Arial, "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+    letter-spacing: 3px;
+}
+.header-top .fr {
+    margin: 0 auto;
+}
+.fr{
+	float: right;
+}
+.header-top .fr li {
+    float: left;
+}
+.titletop{
+	height: 36px;
+}
+.titletop a, .titletop li {
+    color: #fff !important;
+}
+.header-top .login {
+    margin-right: 30px;
+    margin-top: 8px;
+}
+.titletop .MT-DIV a {
+    color: #333 !important;
+}
+
+.w1080 ul .MT-item {
+    float: left;
+    background-position: -5px 0;
+    position: relative;
+    z-index: 99;
+}
+.header-top .jiae1 {
+    margin-right: 15px;
+    margin-top: 8px;
+}
+.jiae1 img{
+	width: 115px;
+	height: 115px;
+	box-sizing:border-box;
+}
+.MT-myul {
+    padding: 5px;
+    position: absolute;
+    left: 120px;
+    top: 0px;
+}
+.w1080 ul .MT-item div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 35px;
+    box-shadow: 0 0 4px rgba(0,0,0,.02),0 2px 5px rgba(0,0,0,.1);
+}
+.w1080 .MT-arrow {
+    display: block;
+    font-size: 0;
+    height: 7px;
+    position: absolute;
+    top: -7px;
+    width: 14px;
+    margin-left: -7px;
+    left: 50%;
+    background: rgba(0, 0, 0, 0) url("http://www.jiae.com/static/images/MT_nav_logo_20131104.png") no-repeat scroll 0 -63px;
+    }
+.MT-DIV {
+	text-align: center;
+    position: absolute;
+    top: 50px;
+    transition: all 0.3s ease 0s;
+    display: none;
+    /*visibility: hidden;*/
+    /*opacity: 0;*/
+}
+/*.w1080 ul .MT-item:hover div {
+    visibility: visible;
+    opacity: 1;
+}*/
+.MT-my{
+	/*display: block;*/
+	text-align: center;
+	width: 200px;
+	left: -50px;
+}
+.logo, .MT-DIV img {
+    padding: 15px;
+}
+.w1080 ul .MT-item div a {
+    width: 86%;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 25px;
+    font-size: 12px;
+    *zoom: 1;
+}
+.w1080 ul .MT-item a {
+    text-align: center;
+    text-decoration: none;
+}
+.header-top .arrow, .header-top .order-icon, .header-top .mobile-icon {
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    width: 16px;
+}
+address, caption, cite, code, dfn, em, i, th, var {
+    font-style: normal;
+    font-weight: 400;
+}
+.header-top .arrow {
+    background: rgba(0, 0, 0, 0) url("http://www.jiae.com/static/images/header-icons.png") no-repeat scroll 0 0;
+    height: 12px;
+    position: relative;
+}
+.header-top .jiae2 {
+    margin-right: 15px;
+    margin-top: 4px;
+}
+.header-top .order-icon {
+    background: rgba(0, 0, 0, 0) url("http://www.jiae.com/static/images/header-icons.png") no-repeat scroll 0 -11px;
+    height: 18px;
+}
+.header-top .jiae3 {
+    margin-top: 3px;
+}
+.header-top .mobile-icon {
+    background: rgba(0, 0, 0, 0) url("http://www.jiae.com/static/images/header-icons.png") no-repeat scroll 0 -31px;
+    height: 19px;
+}
+.MT-mobile{
+	width: 150px;
+	text-align: center;
+	margin-left: -50px;
+	margin-top: 5px;
+	color: #333 !important;
+}
+#p1 {
+    padding: 5px;
+    width: 140px;
+    margin: 0 auto;
+}
+
+#p1 img{
+	box-sizing: content-box;
+	padding-bottom:0;
+	width: 100px;
+	height: 100px;
+}
+/*w1080*/
+.logoPic{
+	height: 85px;
+	width: 158px;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.search{
+	position: absolute;
+	top:24px;
+	width: 262px;
+	height: 36px;
+	right: 36px;
+	
+}
+.search .text{
+	float: left;
+	width: 226px;
+	height: 36px;
+	line-height: 36px;
+	 box-sizing: border-box;
+	 padding-left: 10px;
+	 color: #666;
+	 border: none;
+	 background: none;
+	 outline: 0;
+	font-size: 14px;
+	border-bottom: 1px solid #666;
+}
+.search .button {
+    float: left;
+    width: 36px;
+    height: 36px;
+    border: none;
+    background: none;
+    color: #666;
+    line-height: 36px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    }
+.btn{
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	white-space: nowrap;
+	vertical-align: middle;
+	touch-action: manipulation;
+	border-radius: 4px;
+}
+.fa{
+	display: inline-block;
+	font-family: FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	
+}
+.cart{
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	top: 24px;
+	margin: 0px auto;
+	right: 0;
+}
+.shopping-cart{
+	background: rgba(0, 0, 0, 0) url("http://www.jiae.com/static/images/header-cart.png") no-repeat scroll 6px 10px;
+	height: 36px;
+	line-height: 36px;
+	width: 36px;
+	width: 36px;
+	background-size: 20px 20px;
+}
+.shopping-cart a{
+	position: relative;
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+.cart-num{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: -2px;
+	width: 20px;
+	height: 20px;
+	line-height: 21px;
+	background: #d6292e;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff;
+}
+.child-basket {
+    left: -248px;
+    /*opacity: 0;*/
+    position: absolute;
+    top: 50px;
+    transition: all 0.3s ease 0s;
+    /*visibility: hidden;*/
+    z-index: 999;
+    display: none
+}
+.miniCart{
+	position: relative;
+	width: 326px;
+	border: 1px solid #E7E7E7;
+	background-color: #fff;
+}
+.miniCart .count {
+    padding: 12px 10px;
+    overflow: hidden;
+}
+.miniCart .count .count-text {
+    float: left;
+    font-size: 14px;
+    color: #666;
+}
+.miniCart .count .count-text .row {
+    display: block;
+    line-height: 20px;
+    margin: 0;
+}
+.miniCart .count .color-red {
+    color: #f5422a;
+}
+b, strong {
+    font-weight: bold;
+}
+.miniCart .count .btn-pay {
+    float: right;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #e74144;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+/*nav导航*/
+.w1080 .MT-arrow_1{
+	left:85%
+}
+.nav{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	padding-left: 0;
+	list-style: none;
+}
+ol, ul {
+    list-style: outside none none;
+}
+.nav ul{
+	/*text-align: justify;
+	width: 1030px;
+	display: inline-block;*/
+	display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav li {
+    border-bottom: 4px solid RGB(255,255,255);
+}
+.nav li{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #000;
+	font-family: Helvetica, Arial, "Microsoft YaHei", "瀵邦喛钂嬮梿鍛寸拨", SimSun, "鐎瑰缍�", Heiti, "姒涙垳缍�", sans-serif;
+}
+a {
+    background-color: transparent;
+}
+
+.nav li a{
+	height: 25px;
+	line-height: 25px;
+	font-weight: bold;
+	padding: 0 30px;
+}
+.nav li .j-nav-hover{
+	border-bottom: 1px solid #9E9E9F;
+	box-sizing: border-box !important;
+}
+.j-hava-hover-last{
+	border-left: 1px solid #9e9e9f;
+	padding-left: 20px;
+}
+.j-nav-hover-bg {
+    background: #ffffff;
+    width: 1130px;
+    height: 135px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 151px;
+    left: 50%;
+    margin-left: -565px;
+    z-index: 999;
+    display: none;
+}
+.j-nav-hover-container {
+    width: 1078px;
+    height: 105px;
+}
+.j-nav-catalog-list{
+	width: 1078px;
+	height: 105px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	overflow: hidden;
+	text-align: center;
+	/*box-sizing: border-box;*/
+}
+.j-nav-catalog-list ul{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.j-float{
+	float: left;
+}
+.j-nav-catalog-list li {
+    padding: 10px 5px;
+    float: left;
+    border-left: 15px solid #fff;
+}
+.j-nav-catalog-list li img {
+    display: block;
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+    margin: 10px;
+}
+fieldset, img {
+    border: 0 none;
+}
+.j-nav-catalog-list li span {
+    display: block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    width: 75px;
+    vertical-align: top;
+    text-align: center;
+    font-weight: bold;
+}
+/*轮播图*/
+.slider_main{
+	position: relative;
+	height: 340px;
+	margin-bottom: 10px;
+}
+.slider_item, .slider_item_lk, .slider_list {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.slider_item_active{
+    opacity: 1;
+    z-index: 1;
+    position: absolute;
+    }
+.slider_item_img{
+	height: 100%;
+	width:100%;
+}
+
+.slider_dota{
+	position: absolute;
+	z-index: 1;
+	left: 40%;
+	bottom: 20px;
+	padding: 4px 8px;
+	border-radius: 12px;
+	background: hsla(0,0%,100%,.3);
+	/*display: none;*/
+}
+.slider_dota_btn{
+	display: inline-block;
+	margin-right: 10px;
+	width: 12px;
+	height: 12px;
+	background: #fff;
+	border-radius: 50%;
+	
+}
+.slider_dota_btn_last{
+	margin-right: 0px;
+}
+.slider_dota_btn_active{
+	background-color: #db192a
+}
+
+.slider_control_item{
+	position: absolute;
+	z-index: 1;
+	top:40%;
+	width: 30px;
+	height: 60px;
+	background: rgba(0,0,0,.1);
+	line-height: 60px;
+	text-align: center;
+	display: none;
+}
+.slider_control_prev{
+	left: 0;
+	
+}
+.slider_control_next{
+	right: 0;
+
+	
+}
+.slider_control_prev i,.slider_control_next i{
+	color: #fff;
+	
+}
+
+.slider_main:hover .slider_control_item {
+    display: block;
+}
+.slider_control_item:hover {
+    background: rgba(0,0,0,.6);
+    color: #fff;
+}
+/*轮播项目*/
+.carousel{
+	position: relative;
+}
+.carousel-indicators-div {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 15;
+    width: 100%;
+    padding-left: 0;
+    margin-left: -50%;
+    text-align: center;
+    background: rgba(64,55,48,.6);
+    overflow: hidden;
+    /*binahua */
+    display: block;
+}
+.carousel-indicators{
+	text-align: center;
+	list-style: none;
+	display: inline-block;
+}
+
+.carousel-indicators li {
+    display: block !important;
+    float: left;
+    width: 200px !important;
+    height: 76px !important;
+    margin: 8px 4px !important;
+    border: none !important;
+    border-radius: 0 !important;
+    background: none !important;
+    position: relative;
+    text-indent: -999px;
+	cursor: pointer;
+}
+.carousel-indicators img, .item-cover {
+    width: 200px;
+    height: 76px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+img {
+    vertical-align: middle;
+}
+fieldset, img {
+    border: 0 none;
+}
+.carousel-indicators .active .item-cover {
+    z-index: -1;
+}
+.carousel-indicators .item-cover {
+    background: RGBA(64,55,48,.6);
+}
+/*公共样式*/
+.container-common{
+	width: 1100px;
+	margin: 0 auto;
+}
+.catalog-title-lines{
+    width: 1100px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid rgba(158,158,159,.2);
+    font: 14px Helvetica, Arial, "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.catalog-title {
+    height: 50px;
+    line-height: 50px;
+	float: left;
+    width: 50%;
+}
+
+.catalog-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #231816;
+    letter-spacing: 1px;
+    padding-right: 15px;
+}
+.catalog-desp {
+    font-size: 14px;
+	color: #9e9e9f;
+}
+.catalog-children {
+   float: right;
+}
+.catalog-children ul {
+    display: inline-block;
+    margin-top: 15px;
+}
+.catalog-children li {
+    float: left;
+    margin-left: 8px;
+    
+}
+.catalog-children .pic_1{
+	width: 35px;
+	height: 35px;
+}
+.catalog-children-first {
+    margin-top: 0px;
+}
+.catalog-children-last{
+	margin-top: 8px;
+}
+.item-lis-s3 {
+    margin-left: -23px;
+    width: 1100px;
+    background-color: #fff;
+    font-family: arial, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+    overflow: hidden;
+}
+.item-lis-s3 li {
+    position: relative;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 250px;
+    font-size: 16px;
+}
+.item-lis-s3 li .a-pic {
+    display: block;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+.item-lis-s3 .item-pic {
+    width: 255px;
+    height: 255px;
+    vertical-align: middle;
+    transition: all .5s ease;
+    }
+.pic-shade{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    color: #fff;
+    background: RGBA(35,24,21,.5);
+}
+.pic-shade .pic-shade-first{
+    font-size: 20px;
+    margin-top: 100px;
+}
+.item-lis-s3 .item-tit {
+    float: left;
+    font-size: 16px;
+    max-width: 180px;
+    font-weight: 400;
+    overflow: hidden;
+    height: 20px;
+    line-height: 20px;
+}
+.item-lis-s3 .item-tit a{
+	color: #333;
+}
+.item-tit {
+    width: 55%;
+}
+.item-lis-s3 .item-titlik {
+    overflow: hidden;
+    margin-top: 12px;
+    height: 20px;
+    line-height: 20px;
+}
+.item-titlik p {
+    width: 45%;
+    float: right;
+	height: 20px;
+	color: #8E8B8B;
+	font-size: 12px;
+    overflow: hidden;
+    text-align: right;
+}
+.item-lis-s3 .item-tit a:hover {
+    color: #f5422a;
+}
+    
+.item-lis-s3 .item-price {
+    margin-top: 2px;
+    font-size: 16px;
+    color: #f5422a;
+    font-weight: 900px;
+}
+.j-btn-addCart {
+    display: inline-block;
+    float: right;
+    padding: 15px 17px 5px 5px;
+    background: rgba(0,0,0,0) url("http://www.jiae.com/static/images/header-icons.png") no-repeat scroll 0 -62px;
+        background-size: auto auto;
+    background-size: 100%;
+    margin-right: 2px;
+    cursor: pointer;
+    }
+.catalog-children img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.cont-home .more-bar {
+    margin-top: 30px;
+}
+.more-bar {
+    font-size: 16px;
+    height: 36px;
+    line-height: 36px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-family: Helvetica, Arial, "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+}
+.more-bar .link {
+    display: block;
+    color: #666;
+}
+.more-bar .link:hover {
+    color: #f5422a;
+    text-decoration: none;
+}
+.more-bar .ico-more {
+    display: inline-block;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    background: url(http://www.jiae.com/static/images/common/ico-morepages.png) no-repeat center top;
+    background-size: auto auto;
+    background-size: 20px 20px;
+    vertical-align: middle;
+}
+/*底部*/
+.footer-white {
+    width: 100%;
+    text-align: center;
+}
+.footer-white ul {
+    display: inline-block;
+    width: 1080px;
+    color: #333;
+    margin: 20px 0;
+}
+.footer-white li:first-child {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.footer-white ul li {
+    float: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+
+.firstLi {
+    width: 310px;
+    padding: 0 0 50px;
+    border-right: 1px solid #cecece;
+    }
+.footer-white ul li .title {
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+.footer-white ul li h2 {
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: #333;
+    padding: 8px 0;
+}
+.firstLi_2{
+    margin-top: 10px;
+    letter-spacing: 6px;
+}
+ .firstLi_3{
+    margin-top: 10px;
+    letter-spacing: 5px;
+}
+
+.secondLi {
+    width: 430px;
+}
+.footer-white ul li .title {
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+.secondLi p {
+    font-size: 14px;
+    padding: 10px 40px;
+    padding-right: 60px;
+    line-height: 20px;
+    text-align: left;
+}
+.secondKnow{
+    margin-top: 20px;
+}
+.secondLi a:first-child {
+    margin-right: 45px;
+}
+.secondLi a {
+    padding: 5px 20px;
+    border: 1px solid #333;
+}
+.thirdLi {
+    width: 340px;
+}
+.footer-white ul li img {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+/*脚部*/
+.footer-wp {
+    width: 100%;
+    background-color: #3e3a39;
+    text-align: center;
+}
+.footer-ul {
+    display: inline-block;
+    padding: 30px 0;
+}
+.footer-ul li {
+    float: left;
+}
+.footer-ul li a {
+    color: #999;
+    font-size: 12px;
+    padding: 0 15px;
+    border-right: 1px solid #666;
+}
+/*左侧布局*/
+.lift {
+	left: 42.5px;
+	top: 125px;
+    margin-top: 25px;
+    /*display: none;*/
+    position: fixed;
+    z-index: 100;
+    box-shadow: 0 0 4px rgba(0,0,0,.2);
+    background-color: RGBA(35,24,21,.5)
+}
+/**/
+.lift_list{
+	display: block;
+}
+.lift_item_first {
+    border-top: none;
+}
+.lift_item {
+    border-top: 1px solid #b1aaaa;
+    transition: background-color .1s;
+}
+.lift_btn {
+    padding: 7px 5px;
+}
+.lift_btn {
+    overflow: hidden;
+    display: block;
+    width: 24px;
+    padding: 10px 5px;
+    line-height: 14px;
+    text-align: center;
+    color: #fefefe;
+    transition: color .1s;
+    }
+.lift_btn {
+    line-height: 14px;
+    text-align: center;
+    color: #fefefe;
+}
+.lift_item:hover .lift_btn, .lift_item_on .lift_btn {
+    color: #fff;
+}
+/*.lift_item:hover, */.lift_item_on {
+    position: relative;
+    border-bottom: 1px solid #f5422a;;
+    margin-bottom: -1px;
+    border-color: #f5422a;;
+    background-color: #f5422a;;
+}
+/**/
+.jdm-toolbar-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9990;
+    width: 0;
+    height: 100%;
+    }
+    
+.jdm-toolbar-footer {
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+    left: -29px;
+}
+.jdm-toolbar {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transition: right .3s ease-in-out 0s;
+}
+
+.jdm-toolbar-tab {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    background: RGBA(35,24,21,.5)
+    border-radius: 3px 0 0 3px;
+}
+.jdm-toolbar-tab .tab-tip {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 6px;
+    height: 6px;
+    z-index: 999;
+    display: inline-block;
+	background:url(//static.360buyimg.com/devfe/toolbar/1.0.0/css/i/toolbars.png) no-repeat;
+	background-position: -150px -150px;
+}
+.jdm-tbar-tab-user .tab-ico {
+    background-position: -88px -175px;
+}
+.jdm-tbar-tab-cart .tab-ico {
+    background-position: -50px 0;
+}
+.jdm-tbar-tab-history .tab-ico {
+    background-position: -50px -100px;
+}
+.jdm-tbar-tab-follow .tab-ico {
+    background-position: -50px -50px;
+}
+.jdm-tbar-tab-top .tab-ico {
+    background-position: -50px -250px;
+}
+.jdm-toolbar-tab .tab-ico {
+    width: 34px;
+    height: 35px;
+    margin-left: 1px;
+    position: relative;
+    z-index: 2;
+   	background-color: RGBA(35,24,21,.5)
+    
+    }
+.jdm-toolbar-tab .tab-ico{
+	display: inline-block;
+	background-image: url("http://static.360buyimg.com/devfe/toolbar/1.0.0/css/i/toolbars.png");
+	background-repeat: no-repeat;
+}
+.jdm-toolbar-footer .jdm-toolbar-tab .tab-text {
+    width: 50px;
+}
+.jdm-toolbar-tab .tab-text {
+    width: 62px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    text-align: center;
+    font-family: "微软雅黑";
+    position: absolute;
+    z-index: 1;
+    left: 35px;
+    top: 0;
+    background-color: #7a6e6e;
+    transition: left .3s ease-in-out .1s;
+ }

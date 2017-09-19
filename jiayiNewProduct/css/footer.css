@@ -1,0 +1,97 @@
+/*底部*/
+.footer-white {
+    width: 100%;
+    text-align: center;
+}
+.footer-white ul {
+    display: inline-block;
+    width: 1080px;
+    color: #333;
+    margin: 20px 0;
+}
+.footer-white li:first-child {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.footer-white ul li {
+    float: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+
+.firstLi {
+    width: 310px;
+    padding: 0 0 50px;
+    border-right: 1px solid #cecece;
+    }
+.footer-white ul li .title {
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+.footer-white ul li h2 {
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: #333;
+    padding: 8px 0;
+}
+.firstLi_2{
+    margin-top: 10px;
+    letter-spacing: 6px;
+}
+ .firstLi_3{
+    margin-top: 10px;
+    letter-spacing: 5px;
+}
+
+.secondLi {
+    width: 430px;
+}
+.footer-white ul li .title {
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+.secondLi p {
+    font-size: 14px;
+    padding: 10px 40px;
+    padding-right: 60px;
+    line-height: 20px;
+    text-align: left;
+}
+.secondKnow{
+    margin-top: 20px;
+}
+.secondLi a:first-child {
+    margin-right: 45px;
+}
+.secondLi a {
+    padding: 5px 20px;
+    border: 1px solid #333;
+}
+.thirdLi {
+    width: 340px;
+}
+.footer-white ul li img {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+/*脚部*/
+.footer-wp {
+    width: 100%;
+    background-color: #3e3a39;
+    text-align: center;
+}
+.footer-ul {
+    display: inline-block;
+    padding: 30px 0;
+}
+.footer-ul li {
+    float: left;
+}
+.footer-ul li a {
+    color: #999;
+    font-size: 12px;
+    padding: 0 15px;
+    border-right: 1px solid #666;
+}

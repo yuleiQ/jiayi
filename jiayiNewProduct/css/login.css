@@ -1,0 +1,196 @@
+.header-simple {
+    margin: 0 auto;
+    width: 1080px;
+    height: 80px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.header-simple .logo {
+    width: 128px;
+    height: 55px;
+}
+.logo, .MT-DIV img {
+    padding: 15px;
+}
+fieldset, img {
+    border: 0 none;
+}
+.content-accounts {
+    padding-bottom: 100px;
+}
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+}
+.mod-forms-account {
+    margin: 0 auto;
+    width: 650px;
+}
+.mod-forms {
+    background-color: #fff;
+}
+.mod-forms-account .form-title {
+    height: 50px;
+    line-height: 50px;
+    padding: 25px 0;
+    font-size: 22px;
+    color: #333;
+}
+.mod-forms-account .form-title .title {
+    text-align: center;
+}
+.mod-forms-account .form-title .title .text {
+    display: inline-block;
+}
+.color-red {
+    color: #f5422a;
+}
+.mod-forms-account .form-title .title .text {
+    display: inline-block;
+}
+.mod-forms-account .form-title .line {
+    margin: 0 5px;
+    width: 1px;
+    height: 50px;
+    background: url(http://www.jiae.com/static/images/common/mod-forms-title-line.png) no-repeat center 10px;
+    vertical-align: middle;
+}
+input{
+	font:14px/1.5 tohoma, arial, 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif
+}
+.mod-forms-account .form-title .title .text {
+    display: inline-block;
+}
+.mod-forms-account .form-rows {
+    margin-top: 18px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+}
+/*变化*/
+.mod-forms-account .form-rows .tips {
+    display: block;
+}
+.mod-forms-account .ico-forms-errorTips {
+    float: left;
+    margin: 10px 3px 0 8px;
+    width: 18px;
+    height: 18px;
+    background: url(http://www.jiae.com/static/images/common/ico-forms-errorTips.png) no-repeat center center;
+}
+.mod-forms-account .form-rows .tips .text {
+    float: left;
+}
+/*变化*/
+.j-form-rows-verifycode{
+	display: block;
+}
+.mod-forms-account .btn-getVerifyCode {
+    float: left;
+    margin-left: 14px;
+    width: 145px;
+    height: 36px;
+    line-height: 36px;
+    background-color: #e3e3e3;
+    text-align: center;
+    color: #333;
+}
+.mod-forms-account .form-fields-name {
+    float: left;
+    margin-right: 20px;
+    width: 100px;
+    text-align: right;
+    color: #000;
+}
+.mod-forms-account .input-text-l {
+    width: 383px;
+}
+.mod-forms-account .input-text-l, .mod-forms-account .input-text-m {
+    float: left;
+    height: 34px;
+    border: 1px solid #ececec;
+    font-size: 14px;
+    color: #666;
+    text-indent: 10px;
+}
+.mod-forms-account .form-rows-nofieldsName {
+    margin-top: 18px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.mod-forms-account .form-rows-nofieldsName .checkbox {
+    margin-top: 3px;
+}
+.mod-forms-account .form-rows-nofieldsName .checkbox-t {
+    margin-left: 5px;
+    color: #666;
+}
+.mod-forms-account .form-rows-nofieldsName .help-link {
+    margin-right: 140px;
+}
+a, a:link, a:visited {
+    color: #333;
+}
+.mod-forms-account .btn-groups {
+    margin-left: 120px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.mod-forms-account .btn-groups .btn {
+    float: left;
+    width: 186px;
+    height: 42px;
+    line-height: 42px;
+    border: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.content-accounts .btn-red {
+    width: 186px !important;
+    height: 42px !important;
+    line-height: 42px !important;
+    background: #e74144 !important;
+    color: #fff !important;
+}
+.content-accounts .btn-groups .btn-white {
+    margin-left: 12px;
+}
+.content-accounts .btn-white {
+    width: 184px !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    border: 1px solid #ccc !important;
+    background: #fff !important;
+    color: #666 !important;
+}
+.partener-signin {
+    margin: 30px 0 0 120px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.partener-signin .title {
+    color: #666;
+    float: left;
+}
+.partener-signin .choices {
+    float: left;
+}
+.mod-forms-account .partener-signin .choices a {
+    color: #000;
+}
+.partener-signin .choices .btn-qq {
+    background-position: -24px 0;
+}
+.partener-signin .choices .btn {
+    float: left;
+    margin-left: 8px;
+    width: 24px;
+    height: 24px;
+    text-indent: -9999px;
+    background-image: url(http://www.jiae.com/static/images/login/partenerlogin.png);
+    background-repeat: no-repeat;
+}

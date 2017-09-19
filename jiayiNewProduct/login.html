@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+	</head>
+	<body>
+		<!--
+        	作者：offline
+        	时间：2017-09-16
+        	描述：登录
+        -->
+		<div id="header">
+			<div class="header-top">
+			<a id="J-top" name="J-top" href="##"></a>
+			<div class="w1080 titletop">
+				<div class="fl menu">每天加一点创意</div>
+				<ul class="fr">
+	            	<li class="hd-menu-list hd-menu-logininfo hd-menu-notLogin"></li>
+	                <li class="login">
+	                	[ 
+	                	<a id="J-hd-btn-login" href="login.html" target="_blank">登录</a> 
+	                	|
+	                	<a href="register.html" target="_blank">注册</a> 
+	                	] 
+	                </li>                
+	                <li class="jiae1 MT-item">
+	                 	<a hidefocus="true" href="##">我的加意</a>
+	                 	<i class="arrow"></i>
+	                 	<!--隐藏的图标	
+                          -->
+	                	<div class="MT-my MT-DIV">
+		                    <span class="MT-arrow"></span>
+		                    <img src="http://www.jiae.com/static/images/temp/article-default-pic.png " alt="用户头像" class="pic J-userPhoto">
+		                   <ul class="MT-myul">
+		                        <li>
+		                        	<a href="##" hidefocus="true">个人中心</a>
+		                        </li>
+		                        
+		                        <li>
+		                        	<a href="##" hidefocus="true">我的足迹</a>
+		                        </li>
+		                       
+		                        <li>
+		                       		 <a href="##" hidefocus="true">我的心愿单</a>
+		                        </li>
+		                        
+		                        <li>
+		                       		<a href="login.html" hidefocus="true">退出登录</a>
+		                  	    </li>
+		                    </ul>
+	                </div>
+	             	 </li>
+					<li class="jiae2">
+						<a href="##">我的订单</a>
+						<i class="order-icon"></i>
+					</li>
+					<li class="jiae3  MT-item">
+						<a href="/">手机加意</a>
+						<i class="mobile-icon"></i>
+                          <!--隐藏的二维码	
+                          -->
+						<div class="MT-mobile MT-DIV">
+							<span class="MT-arrow"></span>
+							<p id="p1">
+								<img src="http://www.jiae.com/static/images/ewm-wx-jiae.jpg"><br>加意官方微博</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		</div>
+		<!--
+        	作者：offline
+        	时间：2017-09-16
+        	描述：logo
+       -->
+		<header class="header-simple">
+			<a href="##">
+				<img class="logo" src="http://www.jiae.com/static/images/logo.png" alt="">
+			</a>
+		</header>
+		<!--
+        	作者：offline
+        	时间：2017-09-16
+        	描述：登录
+        -->
+		<div class="content content-accounts">
+			<div class="mod-forms mod-forms-account mod-forms-account-signin">
+				<div class="form-title">
+					<h3 class="title">
+						<span class="text color-red">加意新品</span>
+						<span class="line text"></span>
+						<span class="text">登录</span>
+					</h3>
+				</div>
+			<form action="index.html" method="post" class="form-signin">
+				<!--
+                	账号
+                -->
+				<div class="form-rows j-form-rows-username">
+					<label>
+						<span class="form-fields-name">账号</span>
+						<input class="input-text-l input-text-clear j-username" name="username" placeholder="邮箱/手机号码" type="text">
+					</label>
+					<span class="tips">
+						<i class="ico ico-forms-errorTips"></i>
+						<span class="text"></span>
+					</span>
+				</div>
+				<!--
+                	密码
+                -->
+				<div class="form-rows j-form-rows-pwd">
+					<label>
+						<span class="form-fields-name">密码</span>
+						<input class="input-text-l j-password" name="password" placeholder="密码" type="password">
+					</label>
+					<span class="tips">
+						<i class="ico ico-forms-errorTips"></i>
+						<span class="text"></span>
+					</span>
+				</div>
+				<!--
+                	验证码
+                -->
+				<div class="form-rows j-form-rows-verifycode">
+					<label>
+						<span class="form-fields-name">验证码</span>
+						<input class="input-text-m j-verifycode" name="verification_1" placeholder="验证码" type="text">
+					</label>
+					<a class="btn btn-getVerifyCode j-getVerifyCode" href="##">
+						<input class="verifyCodeKey" name="verification_0" value="4f0ac74e331bfcfb3c58c8dab5020ed88ed75bf7" type="hidden">
+					</a>
+					<span class="tips">
+						<i class="ico ico-forms-errorTips"></i>
+						<span class="text"></span>
+					</span>
+				</div>
+				<div class="form-rows form-rows-nofieldsName">
+					<label>
+						<input class="checkbox fl" name="autologin" type="checkbox">
+						<span class="checkbox-t fl">自动登录</span>
+					</label>
+					<a class="help-link fr" href="##">忘记密码？</a>
+				</div>
+				<!--
+                	注册登录
+                -->
+				<div class="btn-groups">
+					<a class="btn btn-submit btn-red" href="#">登录</a>
+					<a class="btn btn-white" href="register.html">注册</a>
+				</div>
+			</form>
+			<input class="captcha-refresh" name="url" value="" type="hidden">
+			<div class="partener-signin">
+				<p class="title">使用合作网站账号登录:</p>
+				<p class="choices">
+					<a class="btn btn-qq" href="oauth2/getQQAuthorizeURL">QQ登录</a>
+					<a class="btn btn-wx" href="oauth2/getWXAuthorizeURL">微信登录</a>
+				</p>
+			</div>
+			</div>
+		</div>
+		<!--
+    	作者：offline
+    	时间：2017-09-17
+    	描述：底部
+    	-->    	
+	   <div id="footer">
+		    <div class="footer-white"> 
+				<ul class="clearfix">
+					<li class="firstLi">
+						<div class="title">客服电话</div>
+		                <h2>4000-999-637</h2>
+		                <p class="firstLi_1">10:00-17:00（周一到周五）</p>
+		        		<p class="firstLi_2">邮箱：e@jiae.com</p>
+		                <p class="firstLi_3">微信：18721163226</p>
+					</li>
+					<li class="secondLi">
+						<div class="title">加意新品</div>
+		                <p>加意是中国唯一追求原创和个性化需求的电商及创意社群，我们用心连结真实的美和创意，让每个人都可以自信地创造及实现自在的生活！</p>
+		                <div class="secondKnow">
+		                	<a href="http://www.jiae.com/jiae" target="_blank">了解加意</a>
+		                	<a href="http://www.jiae.com/static/gia/gia.html" target="_blank">ABOUT JIAE</a>
+		                </div>
+					</li>
+					<li class="thirdLi">
+						<div class="title">扫码关注加意新品公众号</div>
+		                <img src="http://www.jiae.com/static/images/ewm-wx-jiae.jpg">
+					</li>
+				</ul>
+			</div>
+	    </div>
+		<!--
+	    	作者：offline
+	    	时间：2017-09-17
+	    	描述：
+	    -->
+	    <div id="bottom">
+	    <div class="footer-wp">
+	    	<ul class="footer-ul clearfix">
+	    		<li>
+	    			<a href="##" target="_blank">
+	    			ABOUT JIAE
+	    			</a>
+	    		</li>
+	    		<li>
+	    			<a href="##" target="_blank">
+	                              了解加意
+	                </a>
+	    		</li>
+	    		<li>
+	    			<a href="##" target="_blank">
+	                                配送与验收
+	                </a>
+	    		</li>
+	    		<li>
+	    			<a href="##" target="_blank">
+	                               商务合作
+	                </a>
+	    		</li>
+	    		<li>
+	    			<a href="##" target="_blank">
+	                               企业采购
+	                </a>
+	    		</li>
+	    		<li>
+	    			<a href="##" target="_blank">
+	                               售后服务
+	                </a>
+	    		</li>
+	    		<li>
+	    			<a href="##" target="_blank">
+	                            支付方式
+	                </a>
+	    		</li>
+	    		<li>
+	    			<a href="##" target="_blank">
+	                              用户协议
+	                </a>
+	    		</li>
+	    		<li>
+	    			<a href="##" target="_blank">
+	                             购物流程
+	                </a>
+	    		</li>
+	    	</ul>
+	      </div>
+    </div>
+	</body>
+</html>
